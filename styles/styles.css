@@ -144,3 +144,19 @@ input[type=submit]:hover {
   background-repeat: no-repeat;
   height: 20vh;
 }
+
+.profile {
+  background-color: #696969;
+}
+
+.star {
+  font-size: 1rem;
+  color:#efb810;
+  text-shadow:2px 2px 4px #000000;
+}
+
+.contact {
+  font-size: 2rem;
+  color:#fff;
+  text-shadow:2px 2px 4px #000000;
+}

@@ -2,14 +2,17 @@
 <html lang="en">
 
 <head>
-  <title>Bootstrap 4 Website Example</title>
+  <title>Leonardo Flores</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="./styles/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<link rel="stylesheet" href="./styles/styles.css">
 </head>
 
 <body>
@@ -21,50 +24,134 @@
 
   <!-- MAIN -->
 
-  <div class="w-100 p-4 row d-flex justify-content-center" style="margin-top:30px">
+  <div class="w-100 pr-4 pl-2 pt-4 row d-flex justify-content-center" style="margin-top:30px">
     <div class="col-10">
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-4 p-3 text-center profile">
           <h2>Acerca de mi</h2>
           <div>
             <img class="myPhoto" src="./src/MyPhoto.jpg"></img>
           </div>
 
-          <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-          <h3>Some Links</h3>
-          <p>Lorem ipsum dolor sit ame.</p>
-          <ul class="nav nav-pills flex-column">
+          <p class="text-justify mt-4">Aqui hay que escribir un parrafo pequeño sobre ti y tus habilidades, entre ams te
+            luzcas mejor</p>
+          <h3 class="mt-4">Contacto</h3>
+          <div>
+            <ul class="nav nav-pills flex-column text-left ml-5">
+              <li class="nav-item d-flex">
+                <i class=" material-icons contact">phone</i>
+                <div class="justify-content-center flex-column mt-1 ml-3">
+                   33-14-14-33
+                </div>
+              </li>
+              <li class="nav-item d-flex">
+                <i class=" material-icons contact">mail</i>
+                <div class="justify-content-center flex-column mt-1 ml-3">
+                  leonardo.flores.t@outlook.com
+                </div>
+              </li>
+            </ul>
+          </div>
+          <h3 class="mt-4">Mis habilidades</h3>
+          <p>Tengo experiencia en:</p>
+          <ul class="nav nav-pills flex-column text-left ml-5">
             <li class="nav-item">
-              <a class="nav-link active" href="#">Active</a>
+              HTML
+              <i class=" material-icons star">star</i>
+              <i class=" material-icons star">star</i>
+              <i class=" material-icons star">star</i>
+              <i class=" material-icons star">star</i>
+              <i class=" material-icons star">star</i>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              CSS
+              <i class=" material-icons star">star</i>
+              <i class=" material-icons star">star</i>
+              <i class=" material-icons star">star</i>
+              <i class=" material-icons star">star</i>
+              <i class=" material-icons star">star</i>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              BOOSTRAP
+              <i class=" material-icons star">star</i>
+              <i class=" material-icons star">star</i>
+              <i class=" material-icons star">star</i>
+              <i class=" material-icons star">star</i>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+              JAVASCRIPT
+              <i class=" material-icons star">star</i>
+              <i class=" material-icons star">star</i>
+              <i class=" material-icons star">star</i>
+              <i class=" material-icons star">star</i>
+            </li>
+            <li class="nav-item">
+              ANGULAR
+              <i class=" material-icons star">star</i>
+              <i class=" material-icons star">star</i>
+              <i class=" material-icons star">star</i>
+              <i class=" material-icons star">star</i>
             </li>
           </ul>
           <hr class="d-sm-none">
         </div>
-        <div class="col-sm-8">
-          <h2>TITLE HEADING</h2>
-          <h5>Title description, Dec 7, 2017</h5>
-          <div class="fakeimg">Fake Image</div>
-          <p>Some text..</p>
-          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-            ullamco.</p>
+        <div class="col-sm-8 pl-4">
+          <h2>FORMACION ACADEMICA</h2>
+          <div class="text-right">
+            <h5>Nombre de la escuela, 12/11/2020-12/12/2020</h5>
+          </div>
+          <ul>
+            <li>
+              <div>
+                <p>Actividad o aprendizaje</p>
+                <p>Pequeña descripcion de las cosas que hiciste y aprendiste durante las clases</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <p>Actividad o aprendizaje</p>
+                <p>Pequeña descripcion de las cosas que hiciste y aprendiste durante las clases</p>
+              </div>
+            </li>
+          </ul>
           <br>
-          <h2>TITLE HEADING</h2>
-          <h5>Title description, Sep 2, 2017</h5>
-          <div class="fakeimg">Fake Image</div>
-          <p>Some text..</p>
-          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-            ullamco.</p>
+          <div class="text-right">
+            <h5>Nombre de la escuela, 12/11/2020-12/12/2020</h5>
+          </div>
+          <ul>
+            <li>
+              <div>
+                <p>Actividad o aprendizaje</p>
+                <p>Pequeña descripcion de las cosas que hiciste y aprendiste durante las clases</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <p>Actividad o aprendizaje</p>
+                <p>Pequeña descripcion de las cosas que hiciste y aprendiste durante las clases</p>
+              </div>
+            </li>
+          </ul>
+          <br>
+          <h2>EXPERIENCIA LABORAL</h2>
+          <div class="text-right">
+            <h5>Nombre de la empresa, 12/11/2020-12/12/2020</h5>
+          </div>
+          <ul>
+            <li>
+              <div>
+                <p>Actividad</p>
+                <p>Pequeña descripcion de las cosas que hiciste y aprendiste durante las clases</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <p>Actividad</p>
+                <p>Pequeña descripcion de las cosas que hiciste y aprendiste durante las clases</p>
+              </div>
+            </li>
+          </ul>
+          <br>
         </div>
       </div>
     </div>
@@ -72,33 +159,25 @@
 
   <div class="footer">
     <div class="w-100 p-4 row d-flex justify-content-center" style="margin-top:30px">
-      <div class="col-10">
-
-
+      <div class="col-10 justify-content-center text-center">
+        <h2>CONTACTO</h2>
         <div class="column">
           <img src="./src/map.jpg" style="width:100%">
         </div>
         <div class="column">
           <form action="/action_page.php">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-            <label for="country">Country</label>
-            <select id="country" name="country">
-              <option value="australia">Australia</option>
-              <option value="canada">Canada</option>
-              <option value="usa">USA</option>
-            </select>
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            <label for="fname">Nombre</label>
+            <input type="text" id="fname" name="firstname" placeholder="Nombre: ">
+            <label for="lname">Correo</label>
+            <input type="text" id="lname" name="mail" placeholder="Correo: ">
+            <label for="subject">MENSAJE</label>
+            <textarea id="subject" name="subject" placeholder="Escribe aqui tu mensaje.." style="height:170px"></textarea>
             <input type="submit" value="Submit">
           </form>
         </div>
       </div>
     </div>
   </div>
-
 </body>
 
 </html>
