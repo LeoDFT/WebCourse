@@ -13,7 +13,6 @@ p {
   font-size: 1.2rem;
 }
 
-/* Style inputs */
 input[type=text],
 select,
 textarea {
@@ -37,14 +36,12 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-/* Style the container/contact section */
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 10px;
 }
 
-/* Create two columns that float next to eachother */
 .column {
   float: left;
   width: 50%;
@@ -52,7 +49,6 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
@@ -60,7 +56,6 @@ input[type=submit]:hover {
 }
 
 
-/* Style inputs */
 input[type=text],
 select,
 textarea {
@@ -81,14 +76,12 @@ input[type=submit] {
 }
 
 
-/* Style the container/contact section */
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 10px;
 }
 
-/* Create two columns that float next to eachother */
 .column {
   float: left;
   width: 50%;
@@ -96,7 +89,6 @@ input[type=submit] {
   padding: 20px;
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
@@ -116,8 +108,8 @@ input[type=submit] {
   height: 20vh;
 }
 
-.profile {
-  background-color: #696969;
+.grayBackground {
+  background-color: #ccc;
 }
 
 .star {
